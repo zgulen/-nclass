@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="result.html" method="get">
+
+        <div>
+            <label for="name">isim:</label>
+            <input id="name" type="text" name="isim" placeholder="adınızı giriniz..." >
+            <br>
+            <label for="lname">soyisim:</label>
+            <input id="lname" type="text" name="soyisim" placeholder="soyisim lütfen...">
+        </div>
+
+        <div>
+            <label for="sifre">Parola:</label>
+            <input type="password" name="parola" id="sifre">
+        </div>
+
+        <div>
+            <label>Cinsiyet</label>
+            <br>
+            <label for="gender">Erkek</label>
+            <input type="radio" name="cinsiyet" id="gender" value="Erkek">
+            <label for="gender2">Kadın</label>
+            <input type="radio" name="cinsiyet" id="gender2" value="Kadın" checked>
+        </div>
+
+        <div>
+            <p>Favori hayvan dostlarınızı seçin:</p>
+            <input type="checkbox" name="animal_1" id="panda" value="Panda">
+            <label for="panda">Panda</label>
+            <input type="checkbox" name="animal_2" id="balık" value="Balık">
+            <label for="balık">Balık</label>
+            <input type="checkbox" name="animal_3" id="kedi" value="Kedi">
+            <label for="kedi">Kedi</label>
+        </div>
+
+        <div>
+            <label for="age">Yaş:</label>
+            <input type="number" name="girilen yaş" id="age"  step="5">
+        </div>
+
+        <div>
+            <label for="search">Search:</label>
+            <input type="search" name="arandı" id="search">
+        </div>
+
+        <div>
+            <label for="renk">Renk seçin</label>
+            <input type="color" name="Renk" id="renk">
+        </div>
+
+        <div>
+            <label for="date">Tarih</label>
+            <input type="date" name="Date" id="date">
+        </div>
+        
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="file">Dosya seç</label>
+            <input type="file" name="seçilen dosya" id="file">
+        </div>
+
+        <div>
+            <label for="datetime">Date</label>
+            <input type="datetime-local" name="datetime" id="datetime">
+        </div>
+
+        <div>
+            <label for="telno">Telefon numarası</label>
+            <input type="tel" name="phone" id="telno" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="xxx-xxx-xx-xx">
+        </div>
+
+       <!--Yorum satırı--> 
+
+       <label for="Tatlılar">sevdiğiniz tatlılar</label>
+       <select name="Tatlı" id="Tatlılar"  multiple>
+           <option value="sütlaç">Sütlaç</option>
+           <option value="Spangle">Spangle</option>
+           <option value="Kazandibi">Kazandibi</option>
+           <option value="Aşure">Aşure</option>
+           <option value="keşkül">keşkül</option>
+       </select>
+
+       <div>
+            <label for="Tatlılar2">sevdiğiniz tatlılar</label>
+            <select name="chosenone" id="Tatlılar2">
+                <optgroup label="sütlü_tatlılar">
+                    <option value="sütlaç">Sütlaç</option>
+                    <option value="Spangle">Spangle</option>
+                    <option value="Kazandibi">Kazandibi</option>
+                </optgroup>
+
+                <optgroup label="şerbetli_tatlılar">
+                    <option value="baklava">Baklava</option>
+                    <option value="Künefe">Künefe</option>
+                    <option value="Katmer">Katmer</option> 
+                </optgroup>
+            </select>
+       </div>
+
+       <div>
+           <label for="area">
+               bize ulaşmak için yazınız</label> <br>
+           <textarea name="alan" id="area" style="resize: none; width: 100px;" placeholder="lütfen yorum yazınız"></textarea>
+       </div>
+
+
+<br><br><br><br>
+
+<input type="submit" value="Send">
+<input type="reset" value="Sıfırla">
+
+    </form>
+
+
+    
+</body>
+</html>
