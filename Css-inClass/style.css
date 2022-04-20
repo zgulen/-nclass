@@ -1,16 +1,39 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
 body{
     background-color: #85bb65;
-    
+
 }
 
 h1{
     color: rgba(255, 0, 0, .4);
     
 }
+
+#box1{
+    border-style: groove;
+    border-width: 5px 5px 5px 15px;
+    border-color: blueviolet red green blue;
+}
+
+#box2{
+    border: 6px solid blue;
+    border-radius: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#box3{
+    border: 5px solid brown;
+    border-radius: 10px;
+}
+
 #box4{
     background-color: yellow;
     color: #335755
-
 }
 
 #box5{
