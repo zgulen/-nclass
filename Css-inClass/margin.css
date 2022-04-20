@@ -1,5 +1,23 @@
 .demo {
-    background-color: aqua;
+    background-color: black;
     width: 80%;
     margin: 50px;
+}
+
+.one{
+    background-color: yellow;
+    height: 23px;
+}
+
+.two{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 50px auto;
+    /* margin: 20%; */
+    /* margin: inherit;  /*demo'dan alır*/
+}
+
+.three{
+    background-color: red;
 }
