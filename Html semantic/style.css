@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+p{
+    font-size: 18px;
+}
+
+header{
+    background-color: #F63232;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    /* top: 0; */
+    /* left: 0; */
+    z-index: 1;
+}
+
+header h1{
+    color: white;
+    border: 8px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+}
+.banner{
+    position: relative;
+    
+}
+.banner img{
+    width: 100%;
+}
+
+nav{
+    position: sticky;
+}
+
+nav ul{
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 25%;
+}
+
+nav ul li a{
+    color: rgb(53, 51, 51);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav .join{
+    color: red;
+}
+
+article h2{
+    
+    color: #740405;
+    margin: 40px 0px 0px 10px;
+    transition: 1s;
+}
+
+article h2:hover{
+    font-size: 40px;
+    transition: 1s;
+}
+
+article p{
+    line-height: 2em;
+    color: grey;
+    margin: 20px 0px 0px 10px;
+}
+
+article p::first-line{
+    font-weight: 700;
+    font-size: 1.2em;
+    
+}
+
+main ul{
+    margin: 80px 0px;
+    display: flex;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+main ul li{
+    display: inline-block;
+    list-style-type: none;
+    width: 50%;
+    margin: 20px 5%;
+    position: relative;
+}
+main ul li img{
+    width: 90%;
+    white-space: nowrap;
+    list-style-type: none;
+    position: relative;
+}
+
+.join h2{
+    text-align: center;
+    color: rgb(43, 41, 41);
+    transition: .5s;
+}
+
+.join h2:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-size: 25px;
+    transform: rotate(-10deg);
+}
+
+.images li:hover{
+    top: -4px;
+    cursor: pointer;
+}
+
+.join p{
+    color: rgb(71, 61, 61);
+}
+
+form{
+    text-align: center;
+    
+}
+form input{
+    font-size: 24px;
+    margin: 20px 0px;
+    padding: 10px 25px;
+    color: rgb(46, 44, 44);
+    
+}
+
+#submit{
+    margin: 0px 25px;
+    border: 4px solid rgb(23, 219, 23);
+    border-radius: 60px;
+    transition: .2s ease-in-out;
+}
+
+#submit:hover{
+    color: white;
+    background-color: rgb(23, 219, 23);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    background: #F63232;
+    padding: 30px 0px;
+    color: white;
+}
