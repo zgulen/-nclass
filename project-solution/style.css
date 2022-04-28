@@ -7,12 +7,13 @@
 body{
     background-image: url(./images/background_image.jpg);
     color: white;
+    background-repeat: no-repeat;
 }
 
 #container{
     max-width: 1240px;
     background-color: rgba(0,0,0, 0.3);
-    height: 1600px;
+    height: auto;
     margin: 30px auto;
 }
 
