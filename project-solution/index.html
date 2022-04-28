@@ -1,28 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NetFlix Survey</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="container">
-        <!-- baştaki netflix ve açıklama yazısı -->
-        <header>
-            <h1 id="title">
-                NET<span>FLIX</span>
-            </h1>
+      <!-- baştaki netflix ve açıklama yazısı -->
+      <header>
+        <h1 id="title">NET<span>FLIX</span></h1>
 
-            <h3 id="description">
-                Thank you for singninup to NetFlix. Tell me more about yourself
-            </h3>
+        <h3 id="description">
+          Thank you for singninup to NetFlix. Tell me more about yourself
+        </h3>
+      </header>
 
-        </header>
+      <!-- Form alanı -->
+      <div id="survey-form-container">
+        <div id="survey-form">
+          <form action="result.html" method="get" target="_blank">
+            <div class="input-box">
+              <label for="name">Name</label>
+              <br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+              />
+            </div>
 
+            <div class="input-box">
+              <label for="age">Age</label>
+              <br />
+              <input
+                type="number"
+                id="age"
+                name="age"
+                placeholder="Enter your age"
+              />
+            </div>
 
+            <div class="input-box">
+              <label for="email">E-mail</label>
+              <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+            </div>
 
+            <div class="input-box">
+              <label for="content">Content Types</label>
+              <br />
+              <select name="content" id="dropdown">
+                <option value="movie" selected>Series</option>
+                <option value="series">Movie</option>
+              </select>
+
+              <div class="input-box">
+                <label for="movie">Movie Types</label>
+                <br />
+                <input
+                  type="checkbox"
+                  name="movie"
+                  id="first-check"
+                  value="Comedy"
+                />
+                <label for="first-check">Comedy</label>
+                <br />
+
+                <input
+                  type="checkbox"
+                  name="movie"
+                  id="first-check"
+                  value="Action"
+                />
+                <label for="second-check">Action</label>
+                <br />
+
+                <input
+                  type="checkbox"
+                  name="movie"
+                  id="first-check"
+                  value="Romance"
+                />
+                <label for="third-check">Romance</label>
+              </div>
+
+              <div class="input-box">
+                <label for="gender">Gender</label>
+                <br />
+                <input type="radio" name="gender" id="male" value="Male" />
+                <label for="male">Male</label>
+                <br />
+                <input type="radio" name="gender" id="female" value="Female" />
+                <label for="female">Female</label>
+                <br />
+                <input type="radio" name="gender" id="other" value="Other" />
+                <label for="other">Other</label>
+              </div>
+              
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
