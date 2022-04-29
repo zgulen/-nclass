@@ -8,6 +8,7 @@ body{
     background-image: url(./images/background_image.jpg);
     color: white;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #container{
