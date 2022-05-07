@@ -1,0 +1,48 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: red;
+}
+
+nav.menu{
+    background-color: gray;
+    width: 150px;
+}
+
+nav.menu .list{
+    list-style:"✔";
+    padding: 0px;
+    list-style-position: inside;
+}
+
+nav.menu .list li a {
+   text-decoration: none;
+   color: white;
+}
+
+/* nav.menu .list .active {
+    background-color: black;
+} */
+
+nav.menu .list li:first-child,
+nav.menu .list li:last-child{
+    /* background-color: black; */
+}
+
+nav.menu .list li:hover a,
+nav.menu .list li:hover{
+    background-color: red;
+    color: yellow;
+}
+
+nav.menu .list li:last-child::before{
+    font-family: 'Font Awesome 5 Free';
+    color: aqua;
+    content: '\f0c7';
+}
+
+
+
+
