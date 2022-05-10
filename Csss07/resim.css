@@ -1,0 +1,11 @@
+*{
+    color: white;
+    margin: 0ch;
+}
+
+
+header.banner .bg{
+    background-image: url(./img/tree.jpg);
+    background-size: cover;
+    height: 100vh;
+}

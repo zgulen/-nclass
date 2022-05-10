@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+.img-float{
+    width: 30%;
+    float: left;
+    margin-right: 1.4rem;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.box{
+    float: left;
+    font-size: 2rem;
+    width: 33.3%;
+    margin: 1rem 0;
+}
+
+.box1{
+    background-color: yellowgreen;
+    width: 10%;
+}
+
+.box2{
+    background-color: pink;
+    width: 50%;
+}
+
+.box3{
+    background-color: purple;
+    width: 20%;
+}
+
+
+
