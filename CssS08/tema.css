@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto:wght@100&family=Sorts+Mill+Goudy&display=swap');
+/* font-family: 'Bowlby One SC', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sorts Mill Goudy', serif; */
+
+:root{
+    --mavi1: hsl(205,100%,30%);
+    --mavi2: hsl(205,100%,40%);
+    --mavi3: hsl(205,100%,50%);
+    --mavi4: hsl(205,100%,60%);
+    --mavi5: hsl(205,100%,70%);
+    --mavi6: hsl(205,100%,80%);
+}
