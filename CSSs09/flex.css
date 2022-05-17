@@ -1,15 +1,49 @@
 .container {
+  display: flex;
+  background-color: rgb(238, 235, 36);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 10px;
+}
+.container div {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(211, 18, 179);
+  margin: 1rem;
+}
+
+.container1{
+    background-color: aqua;
     display: flex;
-    background-color: rgb(238, 235, 36);
-    flex-direction: row;
-    flex-wrap: no-wrap;
-    justify-content: space-around;
-    
-  }
-  .container div {
+    height: 20rem;
+    gap: 10px 20px;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 10px;
+    flex-direction: row-reverse;
+}
+
+.container1 div{
     width: 5rem;
-    height: 5rem;
-    background-color: rgb(211, 18, 179);
-    margin: 1rem;
-  }
-  
+    background-color: brown;
+    /* height: 5rem; */
+    margin: 1rem 0;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    background-color: limegreen;
+    height: 20rem;
+    list-style: none;
+    
+}
+
+ul li{
+background-color: coral;
+}
