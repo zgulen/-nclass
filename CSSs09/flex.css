@@ -82,4 +82,36 @@ div.nogrow{
     flex-grow: 0;
 }
 
+.container4{
+    background-color: #a79d11;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.container4 div{
+    width: 5rem;
+    background-color: burlywood;
+    margin: 1rem;
+    
+}
+
+div.div1{
+    width: 10%;
+}
+div.div2{
+    width: 20%;
+}
+div.div3{
+    width: 30%;
+}
+div.div4{
+    width: 40%;
+}
+
+
+
+
+
 
