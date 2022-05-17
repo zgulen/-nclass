@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    background-color: rgb(238, 235, 36);
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    
+  }
+  .container div {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(211, 18, 179);
+    margin: 1rem;
+  }
+  
