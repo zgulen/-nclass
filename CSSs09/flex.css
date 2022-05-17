@@ -14,36 +14,72 @@
   margin: 1rem;
 }
 
-.container1{
-    background-color: aqua;
-    display: flex;
-    height: 20rem;
-    gap: 10px 20px;
-    justify-content: center;
-    align-items: stretch;
-    margin-top: 10px;
-    flex-direction: row-reverse;
+.container1 {
+  background-color: aqua;
+  display: flex;
+  height: 20rem;
+  gap: 10px 20px;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 10px;
+  flex-direction: row-reverse;
 }
 
-.container1 div{
+.container1 div {
+  width: 5rem;
+  background-color: brown;
+  /* height: 5rem; */
+  margin: 1rem 0;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  background-color: limegreen;
+  height: 20rem;
+  list-style: none;
+  gap: 1rem 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: flex-end; */
+  align-content: flex-start;
+}
+
+ul li {
+  background-color: coral;
+  width: 4rem;
+  height: 4rem;
+}
+
+.container3{
+    background-color: #2c8f5f;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.container3 div{
+    background-color: #53c52d;
     width: 5rem;
-    background-color: brown;
-    /* height: 5rem; */
-    margin: 1rem 0;
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 1rem;
+    flex-grow: 1;
+
 }
 
-ul{
-    display: flex;
-    background-color: limegreen;
-    height: 20rem;
-    list-style: none;
-    
+div.grow2{
+flex-grow: 2;
 }
 
-ul li{
-background-color: coral;
+div.grow3{
+flex-grow: 3;
 }
+
+div.nogrow{
+    flex-grow: 0;
+}
+
+
