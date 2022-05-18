@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 150px 50vw 150px;
+    grid-template-rows: 100px 500px 20vh 3rem;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    
+}
+
+.contanten{
+    border: 1px solid red;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.content1{
+    background-image: url(https://images.unsplash.com/photo-1652803072914-9f6119191238?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765);
+    background-size: cover;
+}
+
+.content9{
+    background-color: burlywood;
+}
