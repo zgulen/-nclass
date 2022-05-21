@@ -63,4 +63,106 @@ main img {
   min-width: 300px;
 }
 
+.cards {
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+}
+.cards .card1 {
+  background-color: brown;
+  color: white;
+  width: 25%;
+  height: 12rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.cards .card2 {
+  background-color: rgb(42, 165, 58);
+  color: rgb(12, 11, 11);
+  width: 25%;
+  height: 12rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.cards .card3 {
+  background-color: rgb(112, 165, 42);
+  color: white;
+  width: 25%;
+  height: 12rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.cards .card4 {
+  background-color: rgb(69, 42, 165);
+  color: white;
+  width: 25%;
+  height: 12rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.articles {
+  display: flex;
+  padding: 1rem;
+}
+.articles .article1, .articles .article2 {
+  width: 50%;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 10rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.articles .article2 {
+  background-color: hotpink;
+}
+
+.footer {
+  background-color: green;
+}
+.footer .socialIcons {
+  display: flex;
+  height: 6rem;
+}
+.footer .socialIcons .social1 {
+  width: 20%;
+  height: 100%;
+  background-color: #fd9bab;
+  color: #990000;
+  font-size: 1rem;
+}
+.footer .socialIcons .social2 {
+  width: 20%;
+  height: 100%;
+  background-color: #fd91a2;
+  color: #55004e;
+  font-size: 2rem;
+}
+.footer .socialIcons .social3 {
+  width: 20%;
+  height: 100%;
+  background-color: #fc879a;
+  color: #0fa8a1;
+  font-size: 3rem;
+}
+.footer .socialIcons .social4 {
+  width: 20%;
+  height: 100%;
+  background-color: #fc7d91;
+  color: #121456;
+  font-size: 4rem;
+}
+.footer .socialIcons .social5 {
+  width: 20%;
+  height: 100%;
+  background-color: #fc7389;
+  color: #64c217;
+  font-size: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

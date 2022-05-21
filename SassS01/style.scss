@@ -76,3 +76,90 @@ main{
         min-width: 300px;
     }
 }
+///*
+//! MIXIN
+//*
+@mixin mybox ($bgColor, $fontColor){
+    background-color: $bgColor;
+    color: $fontColor;
+    width: 25%;
+    height: 12rem;
+    border: $myBorder;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    .card1{
+        @include mybox(brown,white)
+    }
+    .card2{
+        @include mybox(rgb(42, 165, 58),rgb(12, 11, 11))
+    }
+    .card3{
+        @include mybox(rgb(112, 165, 42),white)
+    }
+    .card4{
+        @include mybox(rgb(69, 42, 165),white)
+    }
+}
+
+
+
+//********* ARticle **************//
+//***** 
+//! EXTEND
+//*****
+
+.articles{
+    display: flex;
+    padding: 1rem;
+    .article1{
+        width: 50%;
+        background-color: grey;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 10rem;
+        margin: .5rem;
+        padding: .5rem;
+    }
+    .article2{
+        @extend.article1;
+        background-color: hotpink;
+    }
+}
+
+//*********** FOOTER ************//
+//***********
+//! for loop
+//***********
+$textColor: #990000, #55004e, #0fa8a1, #121456, #64c217;
+
+
+$dark: 3;
+.footer{
+    @if $dark == 3{
+        background-color: green;
+    }
+    
+    // color: black;
+    .socialIcons{
+        display: flex;
+        height: 6rem;
+        @for $i from 1 through 5 {
+            .social#{$i}{
+                width: 20%;
+                height: 100%;
+                background-color: darken(rgb(253, 165, 179), $i * 2 );
+                color: nth($textColor , $i );
+                font-size: $i * 1rem;
+            }
+        }
+    }
+}
+
+
+
