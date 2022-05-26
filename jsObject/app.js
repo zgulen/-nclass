@@ -151,10 +151,12 @@ const kisilerFullIsım = kisiler.map((kisi) => ({
 
 console.log(kisilerFullIsım);
 
-const kucukYas = kisiler.filter((kucuk) => kucuk.age < 33)
-console.log(kucukYas);
+
 
 //* Ornek4: Yasi(age) 33 den kücük olan kisilerin adlarini (name) listeyiniz.
+
+const kucukYas = kisiler.filter((kucuk) => kucuk.age < 33)
+console.log(kucukYas);
 
 //* Ornek5: 33 yasindan kücüklerin isimlerini diziye saklayiniz.
 
