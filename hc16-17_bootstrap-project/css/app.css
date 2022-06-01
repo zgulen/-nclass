@@ -45,6 +45,19 @@
 /*! ------------------- 3- ABOUT SECTION ------------------------ */
 
 /*! ------------------- 4- INSTRUCTORS ------------------------ */
+section#instructors .social i{
+  transition: all 1s;
+}
+section#instructors .social i:hover{
+  opacity: .5;
+}
+section#instructors .card{
+  transition: all 1s;
+}
+
+section#instructors .card:hover{
+  transform: scale(1.05);
+}
 
 /*! ------------------- 4- STUDENTS SECTION ------------------------ */
 
